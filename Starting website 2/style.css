@@ -1047,7 +1047,7 @@ h4 {
      background: RGBa(0, 0, 0, 0.6);
      padding: 20px;
      border-radius: 20px;
-     border: solid hsl(19, 85%, 69%) 1px;
+     border: solid hsl(19, 85%, 69%) 4px;
 }
 
 h1,
