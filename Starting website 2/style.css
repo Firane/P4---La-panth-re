@@ -776,7 +776,6 @@ h4 {
 
 .tc-white {
      color: #f3976c !important;
-     text-shadow: 2px 1px 0px black;
 }
 
 .btn-atomic-tangerine {
@@ -1043,11 +1042,9 @@ h4 {
 }
 
 /* Modification Gaël Querharo SEO & Accessibilité */
-body {
-     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
+
 .lapanthere__contact__box {
-     background: RGBa(61, 153, 112, 0.8);
+     background: RGBa(0, 0, 0, 0.6);
      padding: 20px;
      border-radius: 20px;
      border: solid hsl(19, 85%, 69%) 1px;
@@ -1083,4 +1080,10 @@ h3 {
 }
 .auteur {
      font-style: normal;
+}
+.titre__bleu__marine {
+     font-weight: 600;
+     font-size: 2rem;
+     text-transform: uppercase;
+     color: #333333;
 }
