@@ -1087,3 +1087,12 @@ h3 {
      text-transform: uppercase;
      color: #333333;
 }
+textarea {
+     resize: none;
+}
+#bloc-5-cta {
+     position: static;
+}
+/* .contact__btn:hover div.contact__btn__content {
+     background: black;
+} */
