@@ -1093,6 +1093,33 @@ textarea {
 #bloc-5-cta {
      position: static;
 }
-/* .contact__btn:hover div.contact__btn__content {
-     background: black;
-} */
+.contact__btn__content {
+     margin-top: 2rem;
+     margin-bottom: 1rem;
+}
+#form_1 {
+     width: 70%;
+     margin: 0 auto;
+     padding: 3rem;
+}
+#bloc-7 {
+     border-radius: 10px;
+     width: 60%;
+     margin: 0 auto;
+}
+.Lapanthere__infos {
+     margin-top: 1rem;
+     color: white !important;
+     font-size: 1.6rem;
+     font-style: italic;
+}
+#mailto {
+     text-decoration: none;
+     color: white !important;
+}
+.fa-envelope {
+     color: white !important;
+}
+.fa-envelope:hover {
+     color: #f3976c !important;
+}
