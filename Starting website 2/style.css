@@ -550,6 +550,9 @@ a[data-lightbox]:hover::before {
      z-index: 1;
      position: absolute;
      top: 50%;
+     left: 50%;
+     bottom: 50%;
+     right: 50%;
      transform: translateY(-50%);
      -webkit-transform: translateY(-50%);
 }
@@ -1129,20 +1132,27 @@ textarea {
      justify-content: space-between;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 767px) {
      .description {
           width: 95%;
      }
      .img-responsive {
           display: inline;
-          max-width: 85%;
+          max-width: 321px;
+          width: 95%;
      }
      .lapanthere__box {
-          margin: 1rem;
+          margin: 1rem auto;
+          width: 98%;
      }
      .contact__btn__content {
           flex-direction: column;
+          align-items: center;
           row-gap: 2rem;
+     }
+     .infos__adress {
+          width: 100%;
+          max-width: 500px;
      }
      #maps {
           width: 100%;
@@ -1151,5 +1161,37 @@ textarea {
           display: flex;
           justify-content: center;
           column-gap: 2rem;
+     }
+     #bloc-7 {
+          width: 100%;
+          max-width: 500px;
+     }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1068px) {
+     .col-sm-6 {
+          width: 50%;
+     }
+     .portfolio-row {
+          display: flex;
+     }
+     .contact__btn__content {
+          justify-content: space-between;
+     }
+     #bloc-7 {
+          width: 50%;
+     }
+     .infos__adress {
+          width: 50%;
+     }
+     #maps {
+          width: 100%;
+     }
+     #contact__box {
+          width: 98%;
+          margin: 0 auto;
+     }
+     .contact__container {
+          width: 100%;
      }
 }
