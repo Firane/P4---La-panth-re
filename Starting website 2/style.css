@@ -1125,9 +1125,8 @@ textarea {
      flex-direction: column;
      justify-content: space-between;
 }
-
-.textshadow {
-     text-shadow: 0 0 10px #000000;
+.constrast__mod {
+     color: black !important;
 }
 
 @media only screen and (max-width: 767px) {
